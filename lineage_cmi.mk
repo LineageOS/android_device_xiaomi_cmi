@@ -23,6 +23,5 @@ PRODUCT_MODEL := Mi 10 Pro
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="cmi-user 13 RKQ1.211001.001 V816.0.2.0.TJAMIXM release-keys"
-
-BUILD_FINGERPRINT := Xiaomi/cmi_global/cmi:13/RKQ1.211001.001/V816.0.2.0.TJAMIXM:user/release-keys
+    BuildDesc="cmi-user 13 RKQ1.211001.001 V816.0.2.0.TJAMIXM release-keys" \
+    BuildFingerprint=Xiaomi/cmi_global/cmi:13/RKQ1.211001.001/V816.0.2.0.TJAMIXM:user/release-keys
